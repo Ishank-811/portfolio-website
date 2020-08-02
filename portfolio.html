@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./portfolio.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		
+		<title>
+		portfolio
+		</title>
+		<style>
+			
+@media only screen and (max-width:1000px) {
+ .front-page{
+width: 1000px; 
+ }
+ .about-us{
+ 	width:1000px;
+ }
+ .skill-us{
+ 	width:1000px;
+ }
+ .works-us{
+ 	width:1000px;
+ }
+ .image-content img{
+margin:50px;
+height:100px;
+width:200px;
+}
+.about-content{
+	
+margin:auto;
+padding:30px;
+height: 290px;
+display: flex;
+flex-wrap: wrap;
+box-shadow: 10px 10px 10px  black;
+color:#f1bfbf;
+border:none;
+background-color: #1e1e23;
+
+z-index: 1 ;
+}
+
+
+		</style>
+	</head>
+	<body>
+		<!-------------------------navigation------------------------------------------------>
+		<nav class="nav">
+			<div class="nav-menu">
+				<h1><a href="#">Blogger</a></h1>
+			</div>
+			<ul class="nav-content">
+				<li><a id="home" href="#">home </a></li>
+				<li><a id="category" href="#">category </a></li>
+				<li><a id="archive" href="#">Archive </a></li>
+				<li><a id="pages" href="#">pages </a></li>
+				<li><a id="contact" href="#">contact us </a></li>
+			</ul>
+			<div class="icons">
+				
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-youtube" aria-hidden="true"></i>
+			</div>
+		</nav>
+		<!------------------------navigation ends ---------------------------------------------------------->
+		<!------------------------home page ----------------------------------------------------------------->
+		<section class="front-page">
+			<div class="home-content">
+				<h1>Hi,<br>I'm Ishank ,<br>web developer</h1>
+				<h6> html / css / javascript / react / php </h6>
+				<button id="contact-us">contact us</button>
+			</div>
+			<div class="man">
+				<img id="man"src="./images/profile-image.png"></img>
+			</div>
+			</div>
+		</section>
+		<!------------------------------------home page ends ---------------------------------------------------->
+
+		<!-------------------------------------about section starts ---------------------------------------------->
+		<section class="about-us">
+			<h1>About</h1>
+			<texarea class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </texarea>
+			
+			<img id="dotted" src="./images/dotted-shape.png"></img>
+			
+			</section>
+		<!-------------------------------------about section ends -------------------------------------------------->
+		
+
+		<!-----------------------------------skill section start ----------------------------------------------------->
+<section class="skill-us">
+	<div class="skill-content">
+		<h1>Skills</h1>
+	</div>
+	<textarea class="skills-content" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit </textarea>
+	<div class="container">
+		
+		
+		<div class="row">
+			<div class="col-lg-6  ">
+				
+				
+				<p id="html">HTML</p>
+				<div class="progress">
+					
+					
+					<div class="progress-bar progress-bar-striped" style="width:100%"></div>
+				</div>
+				<br>
+				
+				<h3 id="css">CSS</h3>
+				<div class="progress">
+					<div class="progress-bar  progress-bar-striped" style="width:80%"></div>
+					
+				</div>
+				<br>
+				
+				<h3 id="javascript">java script</h3>
+				<div class="progress">
+					<div class="progress-bar  progress-bar-striped" style="width:70%"></div>
+					
+				</div>
+				<br>
+				
+				<h3 id="bootstrap">bootstrap</h3>
+				<div class="progress">
+					<div class="progress-bar  progress-bar-striped" style="width:90%"></div>
+					
+				</div>
+			</section>
+		<!-----------------------------------skill section ends ----------------------------------------------------->
+	<!--------------------------------------------works secection starts ------------------------------------------->
+			<section class="works-us">
+				<div class="works-content">
+					<h1>Works</h1>
+				</div>
+				<div class="btns">
+					<button id="work-btn">web designing</button>
+					<button id="graphic-btn" onclick="hidden" >graphic designing</button>
+					<button id="react-btn">react</button>
+				</div>
+				<div class="category-active image-content">
+					<img src="./images/3.png"></img>
+					<img src="./images/1.png"></img>
+					<img src="./images/2.png"></img>
+					<img src="./images/1.png"></img>
+				</div>
+				<div class="category-hidden image-content">
+					<img src="./images/3.png"></img>
+					<img src="./images/1.png"></img>
+					<img src="./images/3.png"></img>
+					<img src="./images/2.png"></img>
+					<img src="./images/2.png"></img>
+				</div>
+				<div class="category-hidden2 image-content">
+					<img src="./images/2.png"></img>
+					<img src="./images/1.png"></img>
+					<img src="./images/3.png"></img>
+					<img src="./images/1.png"></img>
+				</div>
+<!-----------------------------------------------------------works section ends ---------------------------------------->
+<!-------------------------------------------------contact section starts ---------------------------------------------->
+				<section class="contact-us">
+					<div class="contact-us-content">
+						<h1>Contact us </h1>
+					</div>
+					<form class="last">
+						<div class="in">
+						<input id="name" type="name" placeholder="Name"></input>
+						<input id="name" type="Email" name="Email" placeholder="Email"></input>
+						<input id="name" type="contact" name="contact number " placeholder="contact number"></input>
+						<input id="message" type="message" name="message" placeholder="message"></input>
+					</div>
+					</form >
+				</section>
+<!----------------------------------------------contact section ends --------------------------------------------------->
+			</body>
+			<script type="text/javascript" src="./jquery-3.5.1.min.js"></script>
+			<script type="text/javascript" src="./main.js"></script>
+			
+		<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+			
+		</html>
